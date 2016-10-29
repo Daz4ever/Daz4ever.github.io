@@ -492,6 +492,9 @@ li a:focus {
 	border: none;
 	opacity: 1;
 }
-
+.nopadding {
+	padding-right: 0;
+	padding-left: 0;
+}
 
 }
