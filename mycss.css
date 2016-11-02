@@ -232,6 +232,11 @@ li a:focus {
 	width: 350px;
 	height: 250px;
 }
+
+.tictactoe {
+	width: 360px;
+	height: 220px;
+}
 .portfolio {
   text-align: center;
   background-color: #564130;;
@@ -311,6 +316,7 @@ li a:focus {
 
 .project1 {
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 .project2 {
@@ -325,6 +331,12 @@ li a:focus {
 	margin-bottom: 200px;
 }
 
+.words {
+	color: white;
+	padding-top: 10px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1.2em;
+}
 .about .titlebox {
 	position: relative;
 	max-width: 500px;
