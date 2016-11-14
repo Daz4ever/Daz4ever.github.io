@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 16px;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -99,14 +101,183 @@ div.about .fa-arrow-circle-down:hover{
 	opacity: 1;
 	transition: .3s;
 }
+
+.skills{
+	padding: 0 60px;
+}
+
+.techIcon {
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.html{
+	/*height: 100px;
+	width: 100px;*/
+	filter: grayscale(1);
+	transition: .3s;
+}
+.html:hover{
+	filter: none;
+	transform: scale(1.2);
+}
+.css3{
+	/*height: 100px;
+	width: 100px;*/
+	filter: grayscale(1);
+	transition: .3s;
+
+}
+.css3:hover {
+	filter: none;
+	transform: scale(1.2);
+}
+.html5 {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+	margin-bottom: 100px;
+}
+.css {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.js{
+/*height: 100px;
+width: 100px;*/
+filter: grayscale(1);
+transition: .3s;
+}
+
+.js:hover {
+filter: none;
+transform: scale(1.2);
+}
+.javascript {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.query{
+	/*height: 100px;
+	width: 100px;*/
+	transition: .3s;
+	filter: grayscale(1);
+}
+
+.query:hover {
+	filter: none;
+	transform: scale(1.2);
+}
+.jQuery {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.angularjs{
+transition: .3s;
+filter: grayscale(1);
+
+}
+.angularjs:hover{
+	filter: none;
+	transform: scale(1.3);
+
+}
+.angular {
+
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+
+}
+.pythony{
+
+	filter: grayscale(1);
+	transition: .3s;
+
+}
+.pythony:hover {
+	filter: none;
+	transform: scale(1.2);
+}
+.python {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.flasky{
+/*height: 110px;
+width: 100px;*/
+transition: .3s;
+filter: grayscale(1);
+}
+
+.flasky:hover {
+filter: none;
+transform: scale(1.2);
+
+
+}
+.flask {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.postgresSQL{
+/*height: 100px;
+width: 100px;*/
+filter: grayscale(1);
+transition: .3s;
+}
+.postgresSQL:hover{
+	filter: none;
+	transform: scale(1.2);
+}
+.postgres {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.json {
+	/*height: 100px;
+	width: 150px;*/
+	position: relative;
+	display: inline-block;
+	margin-bottom: 200px;
+}
+.jsoni{
+/*height: 100px;
+width: 100px;*/
+transition: .3s;
+}
+.jsoni:hover{
+	transform: scale(1.2);
+}
 div.skills .fa-arrow-circle-down {
   font-size: 100px;
   color: rgba(162,139,97,1);
   opacity: .3;
-  position: absolute;
 	bottom: 50px;
-	right: 200px;
 	transition: .3s;
+	margin-left: 500px;
+	margin-bottom: 40px;
 }
 
 div.skills .fa-arrow-circle-down:hover{
@@ -208,23 +379,25 @@ li a:focus {
 .skills {
   text-align: center;
   background-color: #f2e9d2;
-
-
 }
+
+.skills .row {
+	margin: 0 0 0 0;
+}
+/*.angularjs {
+	width: 120px;
+}*/
+
 .skills h2 {
 	color: black;
   font-family: 'Special Elite', cursive, serif;
   font-size: 40px;
+	display: inline-block;
 }
 
 .skills p {
-  padding: 20px 150px;
-  line-height: 30px;
-  font-size: 20px;
-  color: black;
-  font-family: 'Quattrocento Sans', sans-serif;
-  padding-bottom: 550px;
-  font-size: 40px;
+  margin-top: 15px;
+	margin-bottom: 40px;
 }
 
 
@@ -235,6 +408,10 @@ li a:focus {
 
 .tictactoe {
 	width: 360px;
+	height: 220px;
+}
+.blackjack {
+	width: 390px;
 	height: 220px;
 }
 .portfolio {
@@ -302,9 +479,8 @@ li a:focus {
 
 .skills .titlebox {
 	position: relative;
-	max-width: 400px;
 	margin: auto;
-	padding: 100px 50px 75px 50px;
+	padding: 100px 50px 50px;
 }
 
 .portfolio .titlebox {
@@ -353,11 +529,10 @@ li a:focus {
 }
 
 .fa-tasks {
+	padding-left: 20px;
 	font-size: 40px;
 	color: black;
-	position: absolute;
-	top: 100px;
-	right: 60px;
+	vertical-align: top;
 }
 
 .fa-folder-open {
@@ -416,7 +591,14 @@ li a:focus {
 }
 
 @media screen and (max-width: 767px) {
-
+	.tictactoe {
+		width: 320px;
+		height: 200px;
+	}
+	.blackjack {
+		width: 320px;
+		height: 180px;
+	}
 
 	.image-fix {
 	background-color: #564130;
@@ -509,4 +691,7 @@ li a:focus {
 	padding-left: 0;
 }
 
+body div .space {
+	padding-bottom: 30px;
+}
 }
