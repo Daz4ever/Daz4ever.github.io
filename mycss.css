@@ -401,26 +401,19 @@ li a:focus {
 }
 
 
-.grill {
-	width: 350px;
-	height: 250px;
+.imagesizeX {
+	width: 400px;
+	height: 400px;
 }
 
-.tictactoe {
-	width: 360px;
-	height: 220px;
-}
-.blackjack {
-	width: 390px;
-	height: 220px;
-}
 .portfolio {
   text-align: center;
-  background-color: #564130;;
+  background-color: #564130;
 
+}
 
-
-
+.github {
+	color: white;
 }
 .portfolio h2 {
 	color: #F1F7ED;
@@ -480,7 +473,7 @@ li a:focus {
 .skills .titlebox {
 	position: relative;
 	margin: auto;
-	padding: 100px 50px 50px;
+	padding: 100px 50px 100px 50px;
 }
 
 .portfolio .titlebox {
@@ -591,17 +584,14 @@ li a:focus {
 }
 
 @media screen and (max-width: 767px) {
-	.tictactoe {
-		width: 320px;
-		height: 200px;
-	}
-	.blackjack {
-		width: 320px;
-		height: 180px;
+	.imagesizeX {
+		width: 300px;
+		height: 300px;
 	}
 
 	.image-fix {
-	background-color: #564130;
+		margin-bottom: 30px;
+
 	}
   .fa-map-signs {
     font-size: 40px;
@@ -631,6 +621,9 @@ li a:focus {
   li {
     display: block;
   }
+	.portfolio a {
+		background-color: #564130;
+	}
   a {
     display: block;
     width: 100%;
