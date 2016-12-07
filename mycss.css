@@ -686,16 +686,16 @@ li a:focus {
 
 @media screen and (max-width: 767px) {
 	.hovereffect .overlay {
-	  width: 300px;
-	  height: 300px;
+	  width: 360px;
+	  height: 360px;
 	}
 	.hovereffect {
-	  width: 300px;
-	  height: 300px;
+	  width: 360px;
+	  height: 100%;
 	}
 	.imagesizeX {
-		width: 300px;
-		height: 300px;
+		width: 360px;
+		height: 360px;
 
 	}
 div.hovereffect {
