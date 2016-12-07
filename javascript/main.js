@@ -10,16 +10,18 @@ $(document).ready(function() {
         });
     });
 
-  $('.scroll').onePageNav({
-      currentClass: 'current',
-      changeHash: false,
-      scrollSpeed: 750,
-      scrollThreshold: 0.5,
-      filter: '',
-      easing: 'swing'
-  });
-
+  // $('.scroll').onePageNav({
+  //     currentClass: 'current',
+  //     changeHash: false,
+  //     scrollSpeed: 750,
+  //     scrollThreshold: 0.5,
+  //     filter: '',
+  //     easing: 'swing'
+  // });
+  $(".fadebox").on("hover", function(){
+  $(".mybutton").css('display, inline-block');
 });
+
 
 var navWhite = document.getElementById("navbar");
 window.onscroll = scroll;
@@ -58,3 +60,4 @@ if (window.innerWidth <  768) {
     });
   }
 }
+});
