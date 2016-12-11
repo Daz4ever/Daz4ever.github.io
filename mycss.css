@@ -110,6 +110,7 @@ div.about .fa-arrow-circle-down:hover{
 	width: 100px;
 	display: inline-block;
 	text-align: center;
+	filter: grayscale(1);
 }
 
 .html{
@@ -270,6 +271,30 @@ transition: .3s;
 .jsoni:hover{
 	transform: scale(1.2);
 }
+.node{
+	height: 100px;
+	width: 90px;
+	transition: .3s;
+}
+.node:hover {
+		transform: scale(1.2);
+		filter: none;
+
+}
+.mongo {
+	transition: .3s;
+}
+.mongo:hover{
+	transform: scale(1.2);
+	filter: none;
+}
+.expressjs {
+	transition: .3s
+}
+.expressjs:hover{
+	transform: scale(1.2);
+	filter: none;
+}
 div.skills .fa-arrow-circle-down {
   font-size: 100px;
   color: rgba(162,139,97,1);
@@ -378,7 +403,7 @@ li a:focus {
 
 .skills {
   text-align: center;
-  background-color: #f2e9d2;
+  background-color: white;
 }
 
 .skills .row {
@@ -444,7 +469,7 @@ li a:focus {
 
 .contact {
   text-align: center;
-  background-color: #f2e9d2;
+  background-color: white;
 
 }
 
@@ -460,7 +485,7 @@ li a:focus {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: bold;
 	padding: 50px;
-	background-color: #f2e9d2;
+	background-color: white;
 }
 .fa-map-signs {
   display: none;
@@ -471,6 +496,10 @@ li a:focus {
 	max-width: 400px;
 	margin: auto;
 	padding: 100px 50px 30px 50px;
+}
+.ending {
+
+	background-color: white;
 }
 
 .skills .titlebox {
@@ -585,7 +614,9 @@ li a:focus {
 	padding-bottom: 10px;
 
 }
-
+.happy {
+	display: none;
+}
 .hovereffect {
   width: 400px;
   height: 400px;
@@ -648,6 +679,34 @@ li a:focus {
   margin: 50px 0 0;
   padding: 7px 14px;
 }
+.hovereffect a.info:nth-of-type(2)  {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+	border-radius: 20px;
+  border: 3px solid yellow;
+  background-color: yellow;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 14px 28px;
+}
+.hovereffect a.info:nth-of-type(3)  {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+	border-radius: 20px;
+  border: 3px solid yellow;
+  background-color: yellow;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 14px 28px;
+}
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
@@ -685,6 +744,25 @@ li a:focus {
 }
 
 @media screen and (max-width: 767px) {
+
+.hovereffect a.info:nth-of-type(1) {
+	display: none;
+}
+.hovereffect a.info:nth-of-type(2) {
+	display: none;
+}
+.hovereffect a.info:nth-of-type(4) {
+	display: none;
+}
+	.hovereffect a.info:nth-of-type(3) {
+		height: 100%;
+		width: 100%;
+		opacity: .7;
+		color: #fff;
+		background-color: #222;
+		border-radius: 0;
+		border: none;
+	}
 	.hovereffect .overlay {
 	  width: 360px;
 	  height: 360px;
@@ -700,6 +778,34 @@ li a:focus {
 	}
 div.hovereffect {
 	margin-bottom: 30px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: none;
+}
+
+.hovereffect:hover img {
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.hovereffect:hover .overlay {
+  opacity: none;
+  filter: none;
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+  opacity: none;
+  filter: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: none;
+  transition-delay: none;
 }
 
   .fa-map-signs {
