@@ -25,6 +25,7 @@ $(document).ready(function() {
 
 var navWhite = document.getElementById("navbar");
 window.onscroll = scroll;
+if (window.innerWidth >  760) {
 function scroll() {
   if (window.pageYOffset >= 773) {
     navWhite.style.backgroundColor = "rgba(162,139,97, 1)";
@@ -32,6 +33,7 @@ function scroll() {
   else {
     navWhite.style.backgroundColor = "rgba(162,139,97,.7)";
   }
+}
 }
 
 
